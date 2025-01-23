@@ -106,7 +106,7 @@ WHERE
 
 ```sql
 SELECT * FROM netflix
-WHERE director ILIKE '%Rajiv Chilaka%'
+WHERE director ILIKE '%Rajiv Chilaka%';
 ```
 
 
@@ -117,7 +117,7 @@ SELECT * FROM netflix
 WHERE 
 	type = 'TV Show'
 	AND
-	SPLIT_PART(duration, ' ', 1)::NUMERIC > 5
+	SPLIT_PART(duration, ' ', 1)::NUMERIC > 5;
 ```
 
 
@@ -154,7 +154,7 @@ SELECT * FROM netflix
 WHERE
 	type= 'Movie'
 	AND
-	listed_in ILIKE '%Documentaries%'
+	listed_in ILIKE '%Documentaries%';
 ```
 
 
@@ -174,7 +174,7 @@ SELECT count(*) FROM netflix
 WHERE
 	casts ILIKE '%Salman Khan%'
 	AND
-	release_year > EXTRACT (YEAR FROM CURRENT_DATE) - 10
+	release_year > EXTRACT (YEAR FROM CURRENT_DATE) - 10;
 ```
 
 
