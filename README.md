@@ -4,4 +4,5 @@
 
 ## Dataset
 The data used in this project has been sourced from Kaggle
-Link: https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download
+
+Link: [Netflix dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
